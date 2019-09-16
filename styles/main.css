@@ -1,0 +1,53 @@
+[class*=col-] {
+  flex: 0 1 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.row {
+  background-color: darkorange;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.row_2 {
+  background-color: yellow;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.row_3 {
+  background-color: blue;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.row_4 {
+  background-color: darkgrey;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  [class*=col-] {
+    flex: 0 1 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .row_2 {
+    height: 250px;
+  }
+
+  .row_3 {
+    height: 90px;
+  }
+
+  .row_4 {
+    height: 80px;
+    width: 49.5%;
+    display: inline-block;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
